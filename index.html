@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="utf-8">
+	<meta name="" email="">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="static/styles.css">
+	<title>JavaScript||Calculator</title>
+	<link rel="manifest" href="./manifest.json">
+</head>
+<body>
+	<h1>Calculator</h1>
+		  <div class="main-div">
+				            <div class="screen" id="screen"><p></p></div>
+							<div class="clear" id="clear">C</div>
+				               <ul class="number-div">
+							             <li class = "numbers" onclick = "displayNumbers(1)">1</li>
+										 <li class = "numbers" onclick = "displayNumbers(2)">2</li>
+										 <li class = "numbers" onclick = "displayNumbers(3)">3</li>
+									     <li class = "operator" onclick = "selectOperators('+')">+</li>
+										 <li class = "numbers" onclick = "displayNumbers(4)">4</li>
+										 <li class= "numbers" onclick = "displayNumbers(5)">5</li>
+										 <li class = "numbers" onclick = "displayNumbers(6)">6</li>
+									     <li class = "operator"  onclick = "selectOperators('x')">x</li>
+										 <li class = "numbers" onclick = "displayNumbers(7)">7</li>
+										 <li class = "numbers" onclick = "displayNumbers(8)">8</li>
+										 <li class = "numbers"onclick = "displayNumbers(9)">9</li>
+									     <li class = "operator"  onclick = "selectOperators('-')">-</li>
+										 <li class = "numbers"onclick = "displayNumbers(0)">0</li>
+										 
+										 <li   class = "numbers" id ="decimal" onclick = "displayNumbers('.')">.</li>
+										 <li  class = operator id="equals">=</li>
+									     <li class = "operator"  onclick = "selectOperators('÷')">÷</li>	 							 
+							   </ul>
+		  </div>	
+		  <script type="text/javascript" src="static/scripts.js"></script>  
+</body>
+</html>
